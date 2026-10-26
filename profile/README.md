@@ -37,14 +37,14 @@ scoop install ship
 
 ### 工具
 
-- [code-packager](https://github.com/iugamlabs/code-packager) — 按忽略规则打包代码，排除不必要的文件。
-- [image-glider](https://github.com/iugamlabs/image-glider) — 跨平台批量图像转换工具，支持 .NET AOT 分发。
-- [sharp-ico](https://github.com/iugamlabs/sharp-ico) — 纯 C# 图标工具，将 PNG 转为多尺寸 Windows ICO，并验证图层。
-- [pdf-toc-extractor](https://github.com/iugamlabs/pdf-toc-extractor) — 提取 PDF 目录，支持多种输出格式。
-- [swag-cli](https://github.com/iugamlabs/swag-cli) — 管理 LinuxServer.io SWAG 的命令行工具。
-- [uv-lens](https://github.com/iugamlabs/uv-lens) — 检查 Python 依赖的新版本，生成 uv 升级建议。
 - [ship](https://github.com/iugamlabs/ship) — 单文件 CLI：构建、推送与远程部署，支持健康检查及回滚。
 - [code-porter](https://github.com/iugamlabs/code-porter) — 以 Git 为核心的工作区扫描、导出与迁移工具。
+- [sharp-ico](https://github.com/iugamlabs/sharp-ico) — 纯 C# 图标工具，将 PNG 转为多尺寸 Windows ICO，并验证图层。
+- [image-glider](https://github.com/iugamlabs/image-glider) — 跨平台批量图像转换工具，支持 .NET AOT 分发。
+- [pdf-toc-extractor](https://github.com/iugamlabs/pdf-toc-extractor) — 提取 PDF 目录，支持多种输出格式。
+- [code-packager](https://github.com/iugamlabs/code-packager) — 按忽略规则打包代码，排除不必要的文件。
+- [swag-cli](https://github.com/iugamlabs/swag-cli) — 管理 LinuxServer.io SWAG 的命令行工具。
+- [uv-lens](https://github.com/iugamlabs/uv-lens) — 检查 Python 依赖的新版本，生成 uv 升级建议。
 - [wechat-clone](https://github.com/iugamlabs/wechat-clone) — macOS 微信分身管理工具。
 - [org-readme-gen](https://github.com/iugamlabs/org-readme-gen) — 根据受众生成组织主页，区分公开与内部内容。
 - [wechatctl](https://github.com/iugamlabs/wechatctl) — Linux 微信实例管理与本地数据工具。
@@ -52,10 +52,10 @@ scoop install ship
 
 ### Fork 与实验
 
+- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI 订阅额度监控；独立维护的 Fork，保留上游来源。
 - [go-oa](https://github.com/iugamlabs/go-oa) — 基于上游项目维护的 OA 管理系统 Fork。
 - [today-tv-django](https://github.com/iugamlabs/today-tv-django) — 基于 DjangoStarter 的 today-tv 后端 Fork。
 - [sonar](https://github.com/iugamlabs/sonar) — 检查与管理本地端口服务的 CLI Fork。
-- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI 订阅额度监控；独立维护的 Fork，保留上游来源。
 - [agent-wechat](https://github.com/iugamlabs/agent-wechat) — 基于 RPA 的微信自动化 Fork。
 
 ### 分发与社区

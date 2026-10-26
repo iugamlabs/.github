@@ -37,14 +37,14 @@ See each project README for supported platforms and alternative installation met
 
 ### Tools
 
-- [code-packager](https://github.com/iugamlabs/code-packager) — Package source code while excluding unnecessary files.
-- [image-glider](https://github.com/iugamlabs/image-glider) — Cross-platform batch image conversion with .NET AOT distribution.
-- [sharp-ico](https://github.com/iugamlabs/sharp-ico) — A pure C# tool for multi-resolution Windows ICO generation and inspection.
-- [pdf-toc-extractor](https://github.com/iugamlabs/pdf-toc-extractor) — Extract PDF tables of contents in multiple output formats.
-- [swag-cli](https://github.com/iugamlabs/swag-cli) — A CLI for managing LinuxServer.io SWAG configurations.
-- [uv-lens](https://github.com/iugamlabs/uv-lens) — Inspect Python dependency updates and generate uv upgrade suggestions.
 - [ship](https://github.com/iugamlabs/ship) — A single-binary CLI for building, pushing and deploying, with health checks and rollback.
 - [code-porter](https://github.com/iugamlabs/code-porter) — Git-first workspace scanning, export and migration.
+- [sharp-ico](https://github.com/iugamlabs/sharp-ico) — A pure C# tool for multi-resolution Windows ICO generation and inspection.
+- [image-glider](https://github.com/iugamlabs/image-glider) — Cross-platform batch image conversion with .NET AOT distribution.
+- [pdf-toc-extractor](https://github.com/iugamlabs/pdf-toc-extractor) — Extract PDF tables of contents in multiple output formats.
+- [code-packager](https://github.com/iugamlabs/code-packager) — Package source code while excluding unnecessary files.
+- [swag-cli](https://github.com/iugamlabs/swag-cli) — A CLI for managing LinuxServer.io SWAG configurations.
+- [uv-lens](https://github.com/iugamlabs/uv-lens) — Inspect Python dependency updates and generate uv upgrade suggestions.
 - [wechat-clone](https://github.com/iugamlabs/wechat-clone) — Manage multiple WeChat instances on macOS.
 - [org-readme-gen](https://github.com/iugamlabs/org-readme-gen) — Generate organization profiles with separate public and internal audiences.
 - [wechatctl](https://github.com/iugamlabs/wechatctl) — Manage WeChat instances and local data on Linux.
@@ -52,10 +52,10 @@ See each project README for supported platforms and alternative installation met
 
 ### Forks and experiments
 
+- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI subscription usage monitoring; an independently maintained fork with upstream attribution.
 - [go-oa](https://github.com/iugamlabs/go-oa) — An OA management system maintained as an upstream fork.
 - [today-tv-django](https://github.com/iugamlabs/today-tv-django) — A today-tv backend fork based on DjangoStarter.
 - [sonar](https://github.com/iugamlabs/sonar) — A CLI fork for inspecting and managing localhost services.
-- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI subscription usage monitoring; an independently maintained fork with upstream attribution.
 - [agent-wechat](https://github.com/iugamlabs/agent-wechat) — An RPA-based WeChat automation fork.
 
 ### Distribution and community

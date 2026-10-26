@@ -7,6 +7,72 @@
   ],
   "projects": [
     {
+      "name": "ship",
+      "url": "https://github.com/iugamlabs/ship",
+      "description": {
+        "zh": "单文件 CLI：构建、推送与远程部署，支持健康检查及回滚。",
+        "en": "A single-binary CLI for building, pushing and deploying, with health checks and rollback."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "code-porter",
+      "url": "https://github.com/iugamlabs/code-porter",
+      "description": {
+        "zh": "以 Git 为核心的工作区扫描、导出与迁移工具。",
+        "en": "Git-first workspace scanning, export and migration."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "sharp-ico",
+      "url": "https://github.com/iugamlabs/sharp-ico",
+      "description": {
+        "zh": "纯 C# 图标工具，将 PNG 转为多尺寸 Windows ICO，并验证图层。",
+        "en": "A pure C# tool for multi-resolution Windows ICO generation and inspection."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "image-glider",
+      "url": "https://github.com/iugamlabs/image-glider",
+      "description": {
+        "zh": "跨平台批量图像转换工具，支持 .NET AOT 分发。",
+        "en": "Cross-platform batch image conversion with .NET AOT distribution."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "pdf-toc-extractor",
+      "url": "https://github.com/iugamlabs/pdf-toc-extractor",
+      "description": {
+        "zh": "提取 PDF 目录，支持多种输出格式。",
+        "en": "Extract PDF tables of contents in multiple output formats."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "aiquokka",
+      "url": "https://github.com/iugamlabs/aiquokka",
+      "description": {
+        "zh": "AI 订阅额度监控；独立维护的 Fork，保留上游来源。",
+        "en": "AI subscription usage monitoring; an independently maintained fork with upstream attribution."
+      },
+      "category": "forks",
+      "featured": true,
+      "fork": true
+    },
+    {
       "name": "go-oa",
       "url": "https://github.com/iugamlabs/go-oa",
       "description": {
@@ -40,39 +106,6 @@
       "fork": false
     },
     {
-      "name": "image-glider",
-      "url": "https://github.com/iugamlabs/image-glider",
-      "description": {
-        "zh": "跨平台批量图像转换工具，支持 .NET AOT 分发。",
-        "en": "Cross-platform batch image conversion with .NET AOT distribution."
-      },
-      "category": "tools",
-      "featured": true,
-      "fork": false
-    },
-    {
-      "name": "sharp-ico",
-      "url": "https://github.com/iugamlabs/sharp-ico",
-      "description": {
-        "zh": "纯 C# 图标工具，将 PNG 转为多尺寸 Windows ICO，并验证图层。",
-        "en": "A pure C# tool for multi-resolution Windows ICO generation and inspection."
-      },
-      "category": "tools",
-      "featured": true,
-      "fork": false
-    },
-    {
-      "name": "pdf-toc-extractor",
-      "url": "https://github.com/iugamlabs/pdf-toc-extractor",
-      "description": {
-        "zh": "提取 PDF 目录，支持多种输出格式。",
-        "en": "Extract PDF tables of contents in multiple output formats."
-      },
-      "category": "tools",
-      "featured": true,
-      "fork": false
-    },
-    {
       "name": "swag-cli",
       "url": "https://github.com/iugamlabs/swag-cli",
       "description": {
@@ -92,28 +125,6 @@
       },
       "category": "tools",
       "featured": false,
-      "fork": false
-    },
-    {
-      "name": "ship",
-      "url": "https://github.com/iugamlabs/ship",
-      "description": {
-        "zh": "单文件 CLI：构建、推送与远程部署，支持健康检查及回滚。",
-        "en": "A single-binary CLI for building, pushing and deploying, with health checks and rollback."
-      },
-      "category": "tools",
-      "featured": true,
-      "fork": false
-    },
-    {
-      "name": "code-porter",
-      "url": "https://github.com/iugamlabs/code-porter",
-      "description": {
-        "zh": "以 Git 为核心的工作区扫描、导出与迁移工具。",
-        "en": "Git-first workspace scanning, export and migration."
-      },
-      "category": "tools",
-      "featured": true,
       "fork": false
     },
     {
@@ -191,17 +202,6 @@
       },
       "category": "forks",
       "featured": false,
-      "fork": true
-    },
-    {
-      "name": "aiquokka",
-      "url": "https://github.com/iugamlabs/aiquokka",
-      "description": {
-        "zh": "AI 订阅额度监控；独立维护的 Fork，保留上游来源。",
-        "en": "AI subscription usage monitoring; an independently maintained fork with upstream attribution."
-      },
-      "category": "forks",
-      "featured": true,
       "fork": true
     },
     {

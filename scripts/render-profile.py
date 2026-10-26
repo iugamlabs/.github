@@ -4,7 +4,6 @@ import argparse
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-FEATURED = ['ship', 'code-porter', 'sharp-ico', 'image-glider', 'pdf-toc-extractor', 'aiquokka']
 
 def render(lang, projects):
     """两种语言共享同一项目集合，避免网站与 GitHub 主页分别维护。"""
@@ -18,9 +17,11 @@ def render(lang, projects):
         '## 精选工具' if zh else '## Featured tools', '',
         '| 项目 | 用途 |' if zh else '| Project | Purpose |', '| --- | --- |',
     ]
-    by_name = {p['name']: p for p in projects}
-    for name in FEATURED:
-        p = by_name[name]
+    # 精选标记和展示顺序都来自目录，官网无需再维护另一份名单。
+    for p in projects:
+        if not p['featured']:
+            continue
+        name = p['name']
         desc = p['description'][lang]
         if p['fork']:
             desc += ' [上游](https://github.com/McKean/aiquokka)' if zh else ' [Upstream](https://github.com/McKean/aiquokka)'
