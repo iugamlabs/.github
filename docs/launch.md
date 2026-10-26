@@ -11,7 +11,7 @@
 - [ ] 在注册商确认 `iugam.com` 可购买性、归属和报价；本次不购买 / Confirm availability, ownership and price with a registrar; no purchase in this migration.
 - [ ] 登录 npm 核实 `iugam` 用户与组织命名空间，若可用则创建 `@iugam`；本次不改现有包名 / Verify the npm namespace when signed in, claim it if available, and preserve existing package names.
 - [ ] 将 `brand/avatar.svg` 导出的头像上传 GitHub 组织；CLI REST 不提供头像上传接口 / Upload an avatar exported from `brand/avatar.svg`; GitHub's organization REST API has no avatar-upload endpoint.
-- [ ] 补查 GitHub Packages、组织级 Actions 权限及变量 / Finish checks requiring GitHub Packages and organization Actions permissions.
+- [x] 通过已登录管理界面补查 Packages 与组织级 Actions，未发现待迁移的配置 / Reviewed Packages and organization Actions in the authenticated settings UI; no remaining brand configuration changes found.
 - [ ] 核实 PyPI Trusted Publisher 的实际 owner、仓库、工作流和 environment 绑定 / Verify actual PyPI Trusted Publisher owner, repository, workflow and environment bindings.
 
 ## 官网首版 / Website v1
