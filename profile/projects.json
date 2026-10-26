@@ -1,0 +1,230 @@
+{
+  "brand": "iugam",
+  "github_org": "iugamlabs",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "projects": [
+    {
+      "name": "go-oa",
+      "url": "https://github.com/iugamlabs/go-oa",
+      "description": {
+        "zh": "基于上游项目维护的 OA 管理系统 Fork。",
+        "en": "An OA management system maintained as an upstream fork."
+      },
+      "category": "forks",
+      "featured": false,
+      "fork": true
+    },
+    {
+      "name": "today-tv-django",
+      "url": "https://github.com/iugamlabs/today-tv-django",
+      "description": {
+        "zh": "基于 DjangoStarter 的 today-tv 后端 Fork。",
+        "en": "A today-tv backend fork based on DjangoStarter."
+      },
+      "category": "forks",
+      "featured": false,
+      "fork": true
+    },
+    {
+      "name": "code-packager",
+      "url": "https://github.com/iugamlabs/code-packager",
+      "description": {
+        "zh": "按忽略规则打包代码，排除不必要的文件。",
+        "en": "Package source code while excluding unnecessary files."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "image-glider",
+      "url": "https://github.com/iugamlabs/image-glider",
+      "description": {
+        "zh": "跨平台批量图像转换工具，支持 .NET AOT 分发。",
+        "en": "Cross-platform batch image conversion with .NET AOT distribution."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "sharp-ico",
+      "url": "https://github.com/iugamlabs/sharp-ico",
+      "description": {
+        "zh": "纯 C# 图标工具，将 PNG 转为多尺寸 Windows ICO，并验证图层。",
+        "en": "A pure C# tool for multi-resolution Windows ICO generation and inspection."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "pdf-toc-extractor",
+      "url": "https://github.com/iugamlabs/pdf-toc-extractor",
+      "description": {
+        "zh": "提取 PDF 目录，支持多种输出格式。",
+        "en": "Extract PDF tables of contents in multiple output formats."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "swag-cli",
+      "url": "https://github.com/iugamlabs/swag-cli",
+      "description": {
+        "zh": "管理 LinuxServer.io SWAG 的命令行工具。",
+        "en": "A CLI for managing LinuxServer.io SWAG configurations."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "uv-lens",
+      "url": "https://github.com/iugamlabs/uv-lens",
+      "description": {
+        "zh": "检查 Python 依赖的新版本，生成 uv 升级建议。",
+        "en": "Inspect Python dependency updates and generate uv upgrade suggestions."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "ship",
+      "url": "https://github.com/iugamlabs/ship",
+      "description": {
+        "zh": "单文件 CLI：构建、推送与远程部署，支持健康检查及回滚。",
+        "en": "A single-binary CLI for building, pushing and deploying, with health checks and rollback."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "code-porter",
+      "url": "https://github.com/iugamlabs/code-porter",
+      "description": {
+        "zh": "以 Git 为核心的工作区扫描、导出与迁移工具。",
+        "en": "Git-first workspace scanning, export and migration."
+      },
+      "category": "tools",
+      "featured": true,
+      "fork": false
+    },
+    {
+      "name": "wechat-clone",
+      "url": "https://github.com/iugamlabs/wechat-clone",
+      "description": {
+        "zh": "macOS 微信分身管理工具。",
+        "en": "Manage multiple WeChat instances on macOS."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "homebrew-tap",
+      "url": "https://github.com/iugamlabs/homebrew-tap",
+      "description": {
+        "zh": "iugam 与关联工具的 Homebrew 软件源。",
+        "en": "Homebrew formulas for iugam and related tools."
+      },
+      "category": "infrastructure",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "org-readme-gen",
+      "url": "https://github.com/iugamlabs/org-readme-gen",
+      "description": {
+        "zh": "根据受众生成组织主页，区分公开与内部内容。",
+        "en": "Generate organization profiles with separate public and internal audiences."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": ".github",
+      "url": "https://github.com/iugamlabs/.github",
+      "description": {
+        "zh": "公开组织主页、品牌素材与项目目录。",
+        "en": "Public organization profiles, brand assets and project catalog."
+      },
+      "category": "infrastructure",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "wechatctl",
+      "url": "https://github.com/iugamlabs/wechatctl",
+      "description": {
+        "zh": "Linux 微信实例管理与本地数据工具。",
+        "en": "Manage WeChat instances and local data on Linux."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "scoop",
+      "url": "https://github.com/iugamlabs/scoop",
+      "description": {
+        "zh": "iugam 与关联工具的 Scoop 软件源。",
+        "en": "Scoop manifests for iugam and related tools."
+      },
+      "category": "infrastructure",
+      "featured": false,
+      "fork": false
+    },
+    {
+      "name": "sonar",
+      "url": "https://github.com/iugamlabs/sonar",
+      "description": {
+        "zh": "检查与管理本地端口服务的 CLI Fork。",
+        "en": "A CLI fork for inspecting and managing localhost services."
+      },
+      "category": "forks",
+      "featured": false,
+      "fork": true
+    },
+    {
+      "name": "aiquokka",
+      "url": "https://github.com/iugamlabs/aiquokka",
+      "description": {
+        "zh": "AI 订阅额度监控；独立维护的 Fork，保留上游来源。",
+        "en": "AI subscription usage monitoring; an independently maintained fork with upstream attribution."
+      },
+      "category": "forks",
+      "featured": true,
+      "fork": true
+    },
+    {
+      "name": "agent-wechat",
+      "url": "https://github.com/iugamlabs/agent-wechat",
+      "description": {
+        "zh": "基于 RPA 的微信自动化 Fork。",
+        "en": "An RPA-based WeChat automation fork."
+      },
+      "category": "forks",
+      "featured": false,
+      "fork": true
+    },
+    {
+      "name": "wpk",
+      "url": "https://github.com/iugamlabs/wpk",
+      "description": {
+        "zh": "Windows 软件查询、定位与升级工具。",
+        "en": "Find, locate and upgrade installed Windows applications."
+      },
+      "category": "tools",
+      "featured": false,
+      "fork": false
+    }
+  ]
+}
