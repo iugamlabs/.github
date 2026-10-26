@@ -7,7 +7,7 @@ import subprocess
 
 LEGACY = re.compile(r"star[-_ ]?plan|heyoungai[/]ship", re.I)
 # 只豁免旧模块的匹配区间；同一行额外出现的旧 owner 仍然会被检查。
-MODULES = re.compile(r"github[.]com/(?:star[-]plan/wechatctl|heyoungai[/]ship)(?=[/@`\s\"']|$)")
+MODULES = re.compile(r"(?<![\w./:])github[.]com/(?:star[-]plan/wechatctl|heyoungai[/]ship)(?=[/@`\s\"']|$)")
 HISTORY = [
     'docs/changes/20*.md', 'docs/changes/completed/*',
     'docs/releases/v*.md', 'docs/fork-merge-guide.md',

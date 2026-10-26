@@ -23,6 +23,9 @@ class BrandCheckTests(unittest.TestCase):
     def test_module_prefix_cannot_hide_different_repository(self):
         self.assertTrue(check.violations('README.md', f'github.com/{OLD}/wechatctl-other'))
 
+    def test_web_url_is_not_a_compatibility_module_identifier(self):
+        self.assertTrue(check.violations('README.md', f'https://github.com/{OLD}/wechatctl'))
+
     def test_history_and_migration_examples_remain_allowed(self):
         for path in ['docs/migration.md','docs/changes/2026-09-10-release-plan.md','docs/releases/v1.0.0.md']:
             self.assertEqual(check.violations(path, OLD), [])
