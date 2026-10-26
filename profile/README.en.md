@@ -52,11 +52,11 @@ See each project README for supported platforms and alternative installation met
 
 ### Forks and experiments
 
-- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI subscription usage monitoring; an independently maintained fork with upstream attribution.
-- [go-oa](https://github.com/iugamlabs/go-oa) — An OA management system maintained as an upstream fork.
-- [today-tv-django](https://github.com/iugamlabs/today-tv-django) — A today-tv backend fork based on DjangoStarter.
-- [sonar](https://github.com/iugamlabs/sonar) — A CLI fork for inspecting and managing localhost services.
-- [agent-wechat](https://github.com/iugamlabs/agent-wechat) — An RPA-based WeChat automation fork.
+- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI subscription usage monitoring; an independently maintained fork with upstream attribution. [Upstream](https://github.com/McKean/aiquokka)
+- [go-oa](https://github.com/iugamlabs/go-oa) — An OA management system maintained as an upstream fork. [Upstream](https://github.com/lock-upme/OPMS)
+- [today-tv-django](https://github.com/iugamlabs/today-tv-django) — A today-tv backend fork based on DjangoStarter. [Upstream](https://github.com/djangostarter/web)
+- [sonar](https://github.com/iugamlabs/sonar) — A CLI fork for inspecting and managing localhost services. [Upstream](https://github.com/raskrebs/sonar)
+- [agent-wechat](https://github.com/iugamlabs/agent-wechat) — An RPA-based WeChat automation fork. [Upstream](https://github.com/thisnick/agent-wechat)
 
 ### Distribution and community
 

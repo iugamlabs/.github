@@ -5,6 +5,14 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def project_description(project, lang):
+    """Fork 的上游地址也来自目录，避免在模板里写死某一个项目的来源。"""
+    description = project['description'][lang]
+    if project['fork']:
+        label = '上游' if lang == 'zh' else 'Upstream'
+        description += f" [{label}]({project['upstream_url']})"
+    return description
+
 def render(lang, projects):
     """两种语言共享同一项目集合，避免网站与 GitHub 主页分别维护。"""
     zh = lang == 'zh'
@@ -22,9 +30,7 @@ def render(lang, projects):
         if not p['featured']:
             continue
         name = p['name']
-        desc = p['description'][lang]
-        if p['fork']:
-            desc += ' [上游](https://github.com/McKean/aiquokka)' if zh else ' [Upstream](https://github.com/McKean/aiquokka)'
+        desc = project_description(p, lang)
         lines.append(f"| [{name}]({p['url']}) | {desc} |")
     lines += ['', '## 安装' if zh else '## Installation', '',
               '```bash', 'brew tap iugamlabs/tap', 'brew install ship', '```', '',
@@ -35,7 +41,7 @@ def render(lang, projects):
         lines += ['### '+(title_zh if zh else title_en), '']
         for p in projects:
             if p['category'] == category:
-                lines.append(f"- [{p['name']}]({p['url']}) — {p['description'][lang]}")
+                lines.append(f"- [{p['name']}]({p['url']}) — {project_description(p, lang)}")
         lines.append('')
     lines += ['## 文档与反馈' if zh else '## Documentation and feedback', '',
               '使用说明、版本下载与问题反馈都位于各项目仓库。Fork 保留上游归属，不代表上游官方发行版。' if zh else 'Documentation, releases and issue reporting live in each project repository. Forks retain upstream attribution and are not official upstream distributions.', '',

@@ -70,7 +70,8 @@
       },
       "category": "forks",
       "featured": true,
-      "fork": true
+      "fork": true,
+      "upstream_url": "https://github.com/McKean/aiquokka"
     },
     {
       "name": "go-oa",
@@ -81,7 +82,8 @@
       },
       "category": "forks",
       "featured": false,
-      "fork": true
+      "fork": true,
+      "upstream_url": "https://github.com/lock-upme/OPMS"
     },
     {
       "name": "today-tv-django",
@@ -92,7 +94,8 @@
       },
       "category": "forks",
       "featured": false,
-      "fork": true
+      "fork": true,
+      "upstream_url": "https://github.com/djangostarter/web"
     },
     {
       "name": "code-packager",
@@ -202,7 +205,8 @@
       },
       "category": "forks",
       "featured": false,
-      "fork": true
+      "fork": true,
+      "upstream_url": "https://github.com/raskrebs/sonar"
     },
     {
       "name": "agent-wechat",
@@ -213,7 +217,8 @@
       },
       "category": "forks",
       "featured": false,
-      "fork": true
+      "fork": true,
+      "upstream_url": "https://github.com/thisnick/agent-wechat"
     },
     {
       "name": "wpk",

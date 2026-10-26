@@ -52,11 +52,11 @@ scoop install ship
 
 ### Fork 与实验
 
-- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI 订阅额度监控；独立维护的 Fork，保留上游来源。
-- [go-oa](https://github.com/iugamlabs/go-oa) — 基于上游项目维护的 OA 管理系统 Fork。
-- [today-tv-django](https://github.com/iugamlabs/today-tv-django) — 基于 DjangoStarter 的 today-tv 后端 Fork。
-- [sonar](https://github.com/iugamlabs/sonar) — 检查与管理本地端口服务的 CLI Fork。
-- [agent-wechat](https://github.com/iugamlabs/agent-wechat) — 基于 RPA 的微信自动化 Fork。
+- [aiquokka](https://github.com/iugamlabs/aiquokka) — AI 订阅额度监控；独立维护的 Fork，保留上游来源。 [上游](https://github.com/McKean/aiquokka)
+- [go-oa](https://github.com/iugamlabs/go-oa) — 基于上游项目维护的 OA 管理系统 Fork。 [上游](https://github.com/lock-upme/OPMS)
+- [today-tv-django](https://github.com/iugamlabs/today-tv-django) — 基于 DjangoStarter 的 today-tv 后端 Fork。 [上游](https://github.com/djangostarter/web)
+- [sonar](https://github.com/iugamlabs/sonar) — 检查与管理本地端口服务的 CLI Fork。 [上游](https://github.com/raskrebs/sonar)
+- [agent-wechat](https://github.com/iugamlabs/agent-wechat) — 基于 RPA 的微信自动化 Fork。 [上游](https://github.com/thisnick/agent-wechat)
 
 ### 分发与社区
 
