@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">iugam</title><desc id="desc">An Indian gooseberry symbol inspired by the Teochew name for 油柑.</desc>
+<rect width="512" height="512" rx="112" fill="#173B31"/>
+<path d="M256 163c-51-43-132 0-132 86 0 87 63 151 132 151s132-64 132-151c0-86-81-129-132-86Z" fill="#D6E69A"/>
+<path d="M256 171c-27 47-28 131 0 197m0-197c27 47 28 131 0 197" fill="none" stroke="#A5BC65" stroke-width="14" stroke-linecap="round"/>
+<path d="M255 153c5-47 38-76 87-75-2 47-34 77-87 75Z" fill="#83B89A"/>
+<path d="M252 173v-47" stroke="#D6E69A" stroke-width="14" stroke-linecap="round"/>
+</svg>
